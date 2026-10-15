@@ -1,0 +1,9 @@
+position,name,type,isnumeric,format,vallab,varlab
+1,i,float,1,%9.0g,,Taxpayer ID
+2,year,byte,1,%9.0g,,Year
+3,logy,float,1,%9.0g,,Log of reported income
+4,topbracket,byte,1,%9.0g,,=1 if in top bracket
+5,l1top,byte,1,%9.0g,,=1 if in top bracket 2 years prior
+6,l2top,byte,1,%9.0g,,
+7,tau,float,1,%9.0g,,Marginal tax rate
+8,logthr,float,1,%9.0g,,Log of take-home rate
